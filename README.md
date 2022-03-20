@@ -43,4 +43,4 @@ vector<vector<float>> temp = { {0,1,0,0,0,    0},
   
 
                                {0,0,0,0,0,    1} };
-We can observed that the whole matrix can be separated by two unrelated submatrices.
+We can observed that the whole matrix can be separated by two unrelated submatrices.And Surprisingly, the final effect of this method is pretty similar to reverse Cuthill-Mckee algorithm.
