@@ -14,10 +14,15 @@ For example:
 If we define an adjacent matrix (temp), just like this:
 
 vector<vector<float>> temp = { {0,1,0,0,0,0},
+  
                                {0,0,0,0,0,1},
+  
                                {0,0,0,1,0,0},
+  
                                {0,1,0,0,0,1},
+  
                                {0,0,0,0,1,0},
+  
                                {0,0,1,0,0,1} };
 
 the output of indices would be:
@@ -27,10 +32,15 @@ indices = {0,1,2,3,5,4};
 Intuitively:
   
 vector<vector<float>> temp = { {0,1,0,0,0,    0},
+  
                                {0,0,0,0,1,    0},
+  
                                {0,0,0,1,0,    0},
+  
                                {0,1,0,0,1,    0},
+  
                                {0,0,1,0,1,    0},
   
+
                                {0,0,0,0,0,    1} };
 We can observed that the whole matrix can be separated by two unrelated submatrices.
